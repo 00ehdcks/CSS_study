@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Style</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+      html {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 16px;
+      }
+      .title {
+        font-size: 28px;
+      }
+      .content {
+        font-size: 18px;
+      }
+      .font-italic {
+        font-style: italic;
+      }
+      .font-bold {
+        font-weight: bold;
+      }
+      .font-weight-300 {
+        font-weight: 300;
+      }
+      .font-variant {
+        font-variant: small-caps;
+      }
+      .subtitle {
+        font-size: 20px;
+      }
+      .subtitle-rem {
+        font-size: 2rem;
+      }
+      .subtitle-em {
+        font-size: 2em;
+      }
+      .article {
+        font-size: 10px;
+      }
+      .rectangle.width {
+        width: 100vw;
+        height: 100px;
+        background-color: yellow;
+      }
+      .rectangle.height {
+        height: 20vh;
+        width: 100px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="title">css style 공부</h2>
+    <p class="content">폰트 공부중</p>
+    <p class="content font-italic">폰트 이탤릭적용</p>
+    <p class="content font-bold">폰트 이탤릭적용</p>
+    <p class="content font-weight-300">폰트 이탤릭적용</p>
+    <p class="content font-variant">HELLO, hello</p>
+    <hr />
+    <h2>px</h2>
+    <p class="subtitle">폰트 공부중</p>
+    <h2>rem</h2>
+    <p class="subtitle-rem">폰트 공부중</p>
+    <div class="article">
+      <h2>em</h2>
+      <p class="subtitle-em">폰트 공부중</p>
+    </div>
+    <hr />
+    <h2>vw</h2>
+    <div class="rectangle width"></div>
+    <h2>vh</h2>
+    <div class="rectangle height"></div>
+  </body>
+</html>
