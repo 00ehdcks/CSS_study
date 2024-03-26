@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      div.content {
+        background-color: rgb(180, 180, 180);
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+        border: 10px solid green;
+      }
+      span {
+        border: 1px solid red;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+      }
+      div.padding {
+        border: 1px solid blue;
+        padding-top: 200px;
+      }
+      div.margin {
+        border: 1px solid blue;
+        margin-top: 30px;
+      }
+      .shape {
+        border: 1px solid blue;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <span>Hello CSS</span>
+    <div class="padding">야미야미</div>
+    <div class="margin">마진마진</div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </body>
+</html>
