@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background</title>
+    <style>
+      .red {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+      }
+      .image {
+        background-image: url('/image/snowman.jpg');
+        background-repeat: repeat;
+        width: 200px;
+        height: 400px;
+        border: 1px solid black;
+        display: inline-block;
+        overflow-y: scroll;
+      }
+      .attachment-scroll {
+        background-attachment: scroll;
+      }
+      .attachment-fixed {
+        background-attachment: fixed;
+      }
+      .attachment-local {
+        background-attachment: local;
+      }
+      .background-size {
+        width: 300px;
+        height: 300px;
+        background-image: url(/image/snowman.jpg);
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        background-size: contain;
+        background-position: center;
+      }
+      .linear-gradient {
+        width: 500px;
+        height: 200px;
+        border: 1px solid red;
+        background: linear-gradient(45deg, red 50%, blue 80%, yellow 100%);
+      }
+      .radial-gradient {
+        width: 500px;
+        height: 200px;
+        border: 1px solid blue;
+        background: radial-gradient(white,yellow,red);
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Background-color</h3>
+    <div class="red"></div>
+    <h3>Background-image</h3>
+    <div class="image attachment-scroll">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor
+      tenetur alias provident saepe aliquid hic incidunt eius ipsa eaque maxime
+      temporibus quos nesciunt qui, esse voluptates tempora magni rerum. Ratione
+      quasi iste deserunt doloribus. Perferendis minus quisquam reiciendis
+      expedita soluta commodi unde. Vel, obcaecati. Quasi explicabo, quos
+      numquam ratione nulla facilis expedita, fuga quod culpa cumque veniam,
+      minima perferendis. Cum impedit veritatis dicta praesentium tenetur a
+      nostrum. Quasi reprehenderit beatae asperiores quia dolores, ad sapiente
+      sint exercitationem libero minus. Aliquid enim consequuntur maiores.
+      Veniam reprehenderit ut fugiat temporibus sunt! Ipsa veritatis, tempora
+      nesciunt natus, illum excepturi non temporibus ex, architecto doloremque
+      repellat deleniti vel nobis repudiandae? Quibusdam, explicabo blanditiis
+      reiciendis eius eos architecto tempora, id nam dolores vel doloremque?
+      Odit, hic. Enim recusandae adipisci quod a. Eum nesciunt dolorem tempora
+      et facilis harum laboriosam. Accusantium quia eius facere quam
+      perspiciatis soluta qui cupiditate doloremque, illo similique itaque ipsum
+      laborum? Nemo sequi recusandae quisquam doloribus minima eos laboriosam
+      similique pariatur suscipit obcaecati. Cupiditate doloremque, quia, eaque
+      dolores ducimus id dolorum enim consequatur eius perspiciatis vitae cum
+      ad, aspernatur repellat asperiores? Quisquam adipisci, pariatur beatae
+      assumenda voluptates quas unde nobis ex perferendis enim a maxime fugit
+      porro vel numquam officiis veniam ipsam, ratione hic. Fuga iusto, eum quam
+      itaque quod cupiditate! Commodi modi quasi quae minima repellendus animi
+      quam repudiandae expedita aliquid possimus praesentium hic atque dolore
+      eum tenetur eveniet ipsam accusamus architecto natus et illum perferendis,
+      distinctio facilis adipisci. Blanditiis.
+    </div>
+    <div class="image attachment-fixed">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor
+      tenetur alias provident saepe aliquid hic incidunt eius ipsa eaque maxime
+      temporibus quos nesciunt qui, esse voluptates tempora magni rerum. Ratione
+      quasi iste deserunt doloribus. Perferendis minus quisquam reiciendis
+      expedita soluta commodi unde. Vel, obcaecati. Quasi explicabo, quos
+      numquam ratione nulla facilis expedita, fuga quod culpa cumque veniam,
+      minima perferendis. Cum impedit veritatis dicta praesentium tenetur a
+      nostrum. Quasi reprehenderit beatae asperiores quia dolores, ad sapiente
+      sint exercitationem libero minus. Aliquid enim consequuntur maiores.
+      Veniam reprehenderit ut fugiat temporibus sunt! Ipsa veritatis, tempora
+      nesciunt natus, illum excepturi non temporibus ex, architecto doloremque
+      repellat deleniti vel nobis repudiandae? Quibusdam, explicabo blanditiis
+      reiciendis eius eos architecto tempora, id nam dolores vel doloremque?
+      Odit, hic. Enim recusandae adipisci quod a. Eum nesciunt dolorem tempora
+      et facilis harum laboriosam. Accusantium quia eius facere quam
+      perspiciatis soluta qui cupiditate doloremque, illo similique itaque ipsum
+      laborum? Nemo sequi recusandae quisquam doloribus minima eos laboriosam
+      similique pariatur suscipit obcaecati. Cupiditate doloremque, quia, eaque
+      dolores ducimus id dolorum enim consequatur eius perspiciatis vitae cum
+      ad, aspernatur repellat asperiores? Quisquam adipisci, pariatur beatae
+      assumenda voluptates quas unde nobis ex perferendis enim a maxime fugit
+      porro vel numquam officiis veniam ipsam, ratione hic. Fuga iusto, eum quam
+      itaque quod cupiditate! Commodi modi quasi quae minima repellendus animi
+      quam repudiandae expedita aliquid possimus praesentium hic atque dolore
+      eum tenetur eveniet ipsam accusamus architecto natus et illum perferendis,
+      distinctio facilis adipisci. Blanditiis.
+    </div>
+    <div class="image attachment-local">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor
+      tenetur alias provident saepe aliquid hic incidunt eius ipsa eaque maxime
+      temporibus quos nesciunt qui, esse voluptates tempora magni rerum. Ratione
+      quasi iste deserunt doloribus. Perferendis minus quisquam reiciendis
+      expedita soluta commodi unde. Vel, obcaecati. Quasi explicabo, quos
+      numquam ratione nulla facilis expedita, fuga quod culpa cumque veniam,
+      minima perferendis. Cum impedit veritatis dicta praesentium tenetur a
+      nostrum. Quasi reprehenderit beatae asperiores quia dolores, ad sapiente
+      sint exercitationem libero minus. Aliquid enim consequuntur maiores.
+      Veniam reprehenderit ut fugiat temporibus sunt! Ipsa veritatis, tempora
+      nesciunt natus, illum excepturi non temporibus ex, architecto doloremque
+      repellat deleniti vel nobis repudiandae? Quibusdam, explicabo blanditiis
+      reiciendis eius eos architecto tempora, id nam dolores vel doloremque?
+      Odit, hic. Enim recusandae adipisci quod a. Eum nesciunt dolorem tempora
+      et facilis harum laboriosam. Accusantium quia eius facere quam
+      perspiciatis soluta qui cupiditate doloremque, illo similique itaque ipsum
+      laborum? Nemo sequi recusandae quisquam doloribus minima eos laboriosam
+      similique pariatur suscipit obcaecati. Cupiditate doloremque, quia, eaque
+      dolores ducimus id dolorum enim consequatur eius perspiciatis vitae cum
+      ad, aspernatur repellat asperiores? Quisquam adipisci, pariatur beatae
+      assumenda voluptates quas unde nobis ex perferendis enim a maxime fugit
+      porro vel numquam officiis veniam ipsam, ratione hic. Fuga iusto, eum quam
+      itaque quod cupiditate! Commodi modi quasi quae minima repellendus animi
+      quam repudiandae expedita aliquid possimus praesentium hic atque dolore
+      eum tenetur eveniet ipsam accusamus architecto natus et illum perferendis,
+      distinctio facilis adipisci. Blanditiis.
+    </div>
+    <h3>background-size</h3>
+    <div class="background-size"></div>
+    <h3>linear-gradient</h3>
+    <div class="linear-gradient"></div>
+    <h3>radial-gradient</h3>
+    <div class="radial-gradient"></div
+  </body>
+</html>
